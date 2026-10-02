@@ -1,0 +1,57 @@
+.item {
+  min-height: 64px;
+  padding: 0 18px;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  background: #f8f9fb;
+  border-radius: 10px;
+
+  transition: 0.2s;
+}
+
+.item:hover {
+  background: #f1f3f7;
+}
+
+.left {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+
+  min-width: 0;
+}
+
+.left input {
+  width: 22px;
+  height: 22px;
+  cursor: pointer;
+}
+
+.left span {
+  font-size: 17px;
+  color: #374151;
+  word-break: break-word;
+}
+
+.completed .left span {
+  text-decoration: line-through;
+  color: #9ca3af;
+}
+
+.delete {
+  border: none;
+  background: transparent;
+  color: #dc2626;
+
+  font-size: 15px;
+  font-weight: 600;
+
+  cursor: pointer;
+}
+
+.delete:hover {
+  color: #b91c1c;
+}
